@@ -1,0 +1,79 @@
+body {
+    background-color:aqua;
+}
+
+#bar {
+text-align: center;
+color: white;
+background-color: darkslategray;
+padding: 5px;
+margin: 5px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+clear: both;
+}
+
+#main-nav { 
+background-color: crimson;
+text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: aliceblue;
+}
+
+
+
+
+
+#main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-content {
+    width: 70%;
+    float: left;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+form input{
+    margin: 10px;
+}
+
+input:focus {
+    width: 500px;
+}
+
+#rules {
+    text-align: center;
+    background-color: chartreuse;
+    float: right;
+    width: 25%;
+    padding: 5px;
+    margin-right: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#rules ul li {
+    padding: 0px;
+    text-align: left;
+}
+
+#rules:hover {
+    background-color: darkgreen;
+}
